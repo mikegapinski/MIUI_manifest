@@ -11,6 +11,6 @@
   	<project path="miui" name="MiCode/patchrom_miui" remote="gh" revision="ics" />
   	<project path="tools" name="MiCode/patchrom_tools" remote="gh" revision="ics" />
 	<project path="manifest" name="MiCode/patchrom" remote="gh" revision="ics"/>
-	<project path="patchrom_mt11i" name="zdunex25/patchrom_mt11i" remote="gh" revision="ics"/>
+	<project path="mt11i" name="zdunex25/patchrom_mt11i" remote="gh" revision="ics"/>
 
 </manifest>
