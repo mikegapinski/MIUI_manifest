@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote  name="gh" fetch="https://github.com/" />
+	<default revision="refs/heads/ics" remote="gh" sync-j="4" />
+	<project path="build" name="MiCode/patchrom_build">
+		<copyfile src="makefile" dest="Makefile" />
+	</project>
+	  <project path="build" name="MiCode/patchrom_build">
+    	<copyfile src="makefile" dest="Makefile" /> 
+  	<project path="android" name="MiCode/patchrom_android" />
+  	<project path="lt18i" name="MiCode/patchrom_lt18i" />
+  	<project path="miui" name="MiCode/patchrom_miui" />
+  	<project path="tools" name="MiCode/patchrom_tools" />
+	<project path="manifest" name="MiCode/patchrom" remote="gh" revision="ics"/>
+	<project path="patchrom_mt11i" name="zdunex25/patchrom_mt11i" remote="gh" revision="ics"/>
+
+</manifest>
