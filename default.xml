@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote  name="gh" fetch="https://github.com/" />
-	<default revision="refs/heads/ics" remote="gh" sync-j="4" />
+	<default revision="refs/heads/jellybean" remote="gh" sync-j="4" />
 	<project path="build" name="MiCode/patchrom_build">
 		<copyfile src="makefile" dest="Makefile" />
 	</project>
-    	<copyfile src="makefile" dest="Makefile" remote="gh" revision="ics" /> 
-  	<project path="android" name="MiCode/patchrom_android" remote="gh" revision="ics" />
-  	<project path="lt18i" name="MiCode/patchrom_lt18i" remote="gh" revision="ics" />
-  	<project path="miui" name="MiCode/patchrom_miui" remote="gh" revision="ics" />
-  	<project path="tools" name="MiCode/patchrom_tools" remote="gh" revision="ics" />
-	<project path="manifest" name="MiCode/patchrom" remote="gh" revision="ics"/>
-	<project path="mt11i" name="zdunex25/patchrom_mt11i" remote="gh" revision="ics"/>
-
+    	<copyfile src="makefile" dest="Makefile" remote="gh" revision="jellybean" /> 
+  	<project path="android" name="MiCode/patchrom_android" remote="gh" revision="jellybean" />
+  	<project path="miui" name="MiCode/patchrom_miui" remote="gh" revision="jellybean" />
+  	<project path="tools" name="MiCode/patchrom_tools" remote="gh" revision="jellybean" />
+	<project path="manifest" name="MiCode/patchrom" remote="gh" revision="jellybean"/>
 </manifest>
